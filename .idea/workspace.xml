@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8eaed869-a996-4b53-8413-87a9248027ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/css/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/navbar-accueil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/categories/gestion_categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/categories/navbar-pages-categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/affichage_consoles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/ajouter_produit_consoles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/edition_produit_consoles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/navbar-pages-consoles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/suppression_produit_consoles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/fournisseurs/gestion_fournisseurs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/fournisseurs/navbar-pages-fournisseurs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/jeux-de-societe/affichage_jeux-de-societe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/jeux-de-societe/ajouter_produit_jeux-de-societe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/jeux-de-societe/edition_produit_jeux-de-societe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/jeux-de-societe/suppression_produit_jeux-de-societe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/livres/affichage_livres.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/livres/ajouter_produit_livres.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/livres/edition_produit_livres.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/livres/suppression_produit_livres.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio-Final/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio-Final/css/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio-Final/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio-Final/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio-Final/navbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio/css/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio/nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio/traitement_mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/Controller_Annonces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/Controller_Regions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/Controller_SplashPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/Controller_Utilisateurs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Model_Annonces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Model_Regions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Model_SplashPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Model_Utilisateurs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/accueil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/inscriptions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/navbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/splashPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/archive.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/front-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/single.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="29xyBjtRfY1cQVvpkkZO39yfb9v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8eaed869-a996-4b53-8413-87a9248027ea" name="Default Changelist" comment="" />
+      <created>1654068897684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654068897684</updated>
+      <workItem from="1654068898716" duration="430000" />
+      <workItem from="1654069353107" duration="9536000" />
+      <workItem from="1654170660819" duration="3908000" />
+      <workItem from="1654238299326" duration="20782000" />
+      <workItem from="1654670776922" duration="9000" />
+      <workItem from="1654670847798" duration="9567000" />
+      <workItem from="1654688621166" duration="10075000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="717" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1654267361272">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="717" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1654267361272" />
+    <state x="585" y="285" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1654086627508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="285" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1654086627508" />
+    <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1654069181903">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1654069181903" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1654697675865">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1654697675865" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1654689941685">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1654689941685" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1654671731446" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1654674132784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1654674132784" />
+    <state x="667" y="76" width="585" height="888" key="find.popup" timestamp="1654692493528">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="76" width="585" height="888" key="find.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1654692493528" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1654248425354">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1654248425354" />
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1654073103513">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1654073103513" />
+  </component>
+</project>
