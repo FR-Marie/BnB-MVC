@@ -10,7 +10,7 @@ function afficherToutesLesRegions(){
 
     foreach ($regions as $region){
         ?>
-        <option value="$region["id_region"]"><?= $region["nom_region"] ?></option>
+        <option value="<?=$region["id_region"]?>"><?= $region["nom_region"] ?></option>
         <?php
     }
     return $regionsClasse;

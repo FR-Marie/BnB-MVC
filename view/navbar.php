@@ -10,7 +10,7 @@
     </div>
 
     <div id="btns-nav" class="right animatedbar">
-        <a href="#" class="waves-effect waves-light btn-large"><i class="material-icons right">send</i>Connexion</a>
+        <a href="connexions" class="waves-effect waves-light btn-large"><i class="material-icons right">send</i>Connexion</a>
         <a href="inscriptions" class="waves-effect waves-light btn-large"><i class="material-icons right">send</i>Inscription</a>
     </div>
 

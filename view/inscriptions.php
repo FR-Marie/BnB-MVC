@@ -3,8 +3,9 @@
 <h2 class="teal-text">INSCRIPTION D'UTILISATEUR</h2>
 
 
+
 <div class="row">
-    <form id="formInscriptionUtilisateur" class="col s12">
+    <form id="formInscriptionUtilisateur" class="col s12" method="POST">
 
         <!-----------NOM ET PRENOM------------>
         <div class="row">
@@ -39,7 +40,7 @@
                 <label for="telephone_utilisateur">Téléphone</label>
             </div>
             <div class="input-field col m3 s12">
-                <select>
+                <select name="region_utilisateur">
                     <option value="" disabled selected>Sélectionnez votre région</option>
 
                     <?php
@@ -64,7 +65,7 @@
         </div>
 
         <button type="submit" class="btn teal white-text" id="btn-inscription" name="btn-inscription">VALIDER MON INSCRIPTION</button>
-        <a href="accueil" class="btn red white-text" id="btn-inscription" name="btn-inscription">ANNULER</a>
+        <a href="accueil" class="btn red white-text" id="btn-inscription">ANNULER</a>
 
     </form>
 </div>

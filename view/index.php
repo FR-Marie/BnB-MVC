@@ -13,6 +13,7 @@ require_once "../controller/Controller_SplashPage.php";
 require_once "../controller/Controller_Annonces.php";
 require_once "../controller/Controller_Regions.php";
 require_once "../controller/Controller_Utilisateurs.php";
+require_once "../controller/Controller_Administrateurs.php";
 
 
 //Si un paramètre $_GET existe dans l'url:
@@ -20,38 +21,55 @@ if (isset($_GET["url"])){
 //$url récupère ce paramètre
     $url = $_GET["url"];
 }else{
-    $url = "accueil";
+    $url = "splashPage";
 }
+
+
 
 
 
 /////// Si $url = splashPage ///////
 if($url === "splashPage"){
     $title = "Bienvenue - Le Marché du livre";
-    //appel de la fonction du controleur:
+    //appel de la fonction du contrôleur:
     afficherSplashPage();
 
 /////// Sinon si $url = accueil ///////
 }elseif ($url === "accueil"){
     $title = "Accueil - Le Marché du livre";
-    //appel de la fonction du controleur:
+    //appel de la fonction du contrôleur:
     afficherToutesLesAnnonces();
 
 
 }elseif ($url === "inscriptions"){
 $title = "Inscription utilisateur - Le Marché du livre";
-    //appel de la fonction du controleur:
+    //appel de la fonction du contrôleur:
     afficherFormulaireInscriptionUtilisateur();
-    InscriptionUtilisateurController();
-}
+    //InscriptionUtilisateurController();
+
+}elseif ($url === "confirmationInscriptionUtilisateur") {
+    $title = "Confirmation Inscription utilisateur - Le Marché du livre";
+    //appel de la fonction du contrôleur:
+    require_once "../view/confirmationInscriptionUtilisateur.php";
+
+}elseif ($url === "connexions") {
+    $title = "Connexion utilisateur - Le Marché du livre";
+    //appel de la fonction du contrôleur:
+    connexionUtilisateurController();
+    //connexionAdministrateurController();
+    //require_once "../view/connexions.php";
+
+}elseif ($url === "dashboard-utilisateur" && $_SESSION["utilisateur_connecte"] === true) {
+    $title = "Dashboard utilisateur";
+    require_once "dashboard-utilisateur.php";
 
 
 //Si $url renvoi une chaîne de caractère vide OU si $url contient un caractère interdit => redirection page d'accueil
-if (($url === "") || ($url !=  '#:[\w]+)#')){
-    $url = "accueil";
+}elseif ($url != '#:[\w]+)#') {
+        header('location: splashPage');
+
+
 }
-
-
 
 /*
  * ob_get_clean — Lit le contenu courant du tampon de sortie puis l'efface

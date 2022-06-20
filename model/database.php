@@ -39,6 +39,7 @@ class Database
             }
         }else{
             echo "erreur : instances multiples de PDO";
+            return self::$isConnected;
         }
     }
 }

@@ -44,25 +44,12 @@
       <change afterPath="$PROJECT_DIR$/../Portfolio/javascript.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Portfolio/nav.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Portfolio/traitement_mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/Controller_Annonces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/Controller_Regions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/Controller_SplashPage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/Controller_Utilisateurs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Model_Annonces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Model_Regions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Model_SplashPage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Model_Utilisateurs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/accueil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/inscriptions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/navbar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/splashPage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/Controller_Administrateurs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Model_Administrateurs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Model_mailInscription.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/confirmationInscriptionUtilisateur.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/connexions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/dashboard-utilisateur.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/archive.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" afterDir="false" />
@@ -74,13 +61,27 @@
       <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/page.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/single.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/Controller_Regions.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Controller_Regions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/Controller_Utilisateurs.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Controller_Utilisateurs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Model_Utilisateurs.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Model_Utilisateurs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/inscriptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/inscriptions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/template.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -92,7 +93,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -109,10 +110,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../symfonyAnnonces" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\le-marche-du-livre\assets" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -129,6 +135,12 @@
       <workItem from="1654670776922" duration="9000" />
       <workItem from="1654670847798" duration="9567000" />
       <workItem from="1654688621166" duration="10075000" />
+      <workItem from="1654847641232" duration="3466000" />
+      <workItem from="1655103355377" duration="20019000" />
+      <workItem from="1655279106798" duration="6703000" />
+      <workItem from="1655362378127" duration="596000" />
+      <workItem from="1655447849519" duration="7644000" />
+      <workItem from="1655706333418" duration="2156000" />
     </task>
     <servers />
   </component>
@@ -148,6 +160,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="336" y="361" key="#SQL_Dialects" timestamp="1655109959537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="336" y="361" key="#SQL_Dialects/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1655109959537" />
     <state x="717" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1654267361272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -160,14 +176,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1654069181903" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1654697675865">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1655714967982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1654697675865" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1654689941685">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1655123161032" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1655714967982" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1655124213217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1654689941685" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1655124213217" />
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1654671731446" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1654674132784">
       <screen x="0" y="0" width="1920" height="1040" />
